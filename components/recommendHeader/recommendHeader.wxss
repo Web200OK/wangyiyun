@@ -1,0 +1,17 @@
+.more{
+    float: right;
+    width: 150rpx;
+    height: 50rpx;
+    background-color: white;
+    border: black 1rpx solid;
+    border-radius: 20rpx;
+    line-height: 50rpx;
+    text-align: center;
+}
+.recommendHeaderItem{
+    font-size: 26rpx;
+    margin-bottom: 10rpx;
+}
+.recommendHeader text{
+    font-size: 26rpx;
+}

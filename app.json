@@ -1,0 +1,46 @@
+{
+    "pages": [
+        "page/index/index",
+        "page/research/research",
+        "page/recommondSong/recommondSong",
+        "page/login/login",
+        "page/personal/personal",
+        "page/songDetail/songDetail",
+        "page/video/video"
+    ],
+    "requiredBackgroundModes": [
+        "audio",
+        "location"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#a0eee1",
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "我的音乐"
+    },
+    "sitemapLocation": "sitemap.json",
+    "tabBar": {
+        "color": "#333",
+        "selectedColor": "#a0eee1",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "pagePath": "page/index/index",
+                "text": "首页",
+                "iconPath": "/static/images/tabs/账户管理.png",
+                "selectedIconPath": "/static/images/tabs/01-数据中心.png"
+            },
+            {
+                "pagePath": "page/video/video",
+                "text": "视频",
+                "iconPath": "/static/images/tabs/视频.png",
+                "selectedIconPath": "/static/images/tabs/视频_填充.png"
+            },
+            {
+                "pagePath": "page/personal/personal",
+                "text": "个人中心",
+                "iconPath": "/static/images/tabs/账户管理.png",
+                "selectedIconPath": "/static/images/tabs/07-账户管理.png"
+            }
+        ]
+    }
+}
